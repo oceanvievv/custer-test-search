@@ -83,7 +83,6 @@ body {
 
   border: none;
   box-sizing: border-box;
-  background-color : #d1d1d1;
 }
 .search__input input:focus {
   outline: none;
