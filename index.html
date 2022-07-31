@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Title</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="mobile_search.css">
-  <script src="clearSearch.js" defer></script>
-</head>
-<body class="base-text">
-
-<div class="header-container">
-  <div class="header__search">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
-    <div class="search__input">
-      <input id="searchInput" type="text" spellcheck="false">
+    <title>Title</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile_search.css">
+    
+    <script src="clearSearch.js" defer></script>
+  </head>
+  <body class="base-text">
+  
+  <div class="header-container">
+    <div class="header__search">
       
-      <div id="clearInput" class="search__clear" onclick="clearSearch()">
-        <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M5 1L1 6L5 11H14V1H5Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M7.5 4.5L10 7.5M7.5 7.5L10 4.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+      <div class="search__input">
+        <input id="searchInput" type="text" spellcheck="false">
+        
+        <div id="clearInput" class="search__clear" onclick="clearSearch()">
+          <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 1L1 6L5 11H14V1H5Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M7.5 4.5L10 7.5M7.5 7.5L10 4.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </div>
+      
+      <div class="search__close">
+        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 1L9 9M1 9L9 1" stroke="black" stroke-width="1.2" stroke-linecap="round"/>
         </svg>
       </div>
     </div>
-    
-    <div class="search__close">
-      <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M1 1L9 9M1 9L9 1" stroke="black" stroke-width="1.2" stroke-linecap="round"/>
-      </svg>
-    </div>
   </div>
-</div>
-
-</body>
+  
+  </body>
 </html>
 
 <!--<!DOCTYPE html>-->
