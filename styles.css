@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "DealerplateFixed";
+  src: url("DealerplateFixed.otf") format("opentype");
+}
+@font-face {
+  font-family: "DealerplateOriginal";
+  src: url("dealerplate california.ttf") format("truetype");
+}
+
+body {
+  background-color: wheat;
+  font-size: 36px;
+}
+
+p {
+  margin: 0;
+}
+
+.original {
+  font-family: "DealerplateOriginal", sans-serif;
+}
+
+.fixed {
+  font-family: "DealerplateFixed", sans-serif;
+}
+.go-back {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 6px;
+
+  font-size: 17px;
+  letter-spacing: 0.05em;
+}
