@@ -75,6 +75,7 @@ body {
 }
 .search__input input {
   width: 100%;
+  height: 16px;
 
   font-family: "DealerplateFixed", sans-serif;
   font-size: 13px;
@@ -82,6 +83,7 @@ body {
 
   border: none;
   box-sizing: border-box;
+  background-color : #d1d1d1;
 }
 .search__input input:focus {
   outline: none;
